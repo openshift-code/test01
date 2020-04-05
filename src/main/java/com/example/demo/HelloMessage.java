@@ -1,12 +1,12 @@
 package com.example.demo;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-
-@Entity
+//import javax.persistence.Entity;
+//import javax.persistence.GeneratedValue;
+//import javax.persistence.Id;
+//
+//@Entity
 public class HelloMessage {
-    @Id
-    @GeneratedValue
+//    @Id
+//    @GeneratedValue
     private Long id;
     private String text;
     public String getText() {
